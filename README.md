@@ -31,8 +31,8 @@ This is a web app for selling online courses, developed as part of my React trai
 
 3. Install backend dependencies and start the server:
    ```bash
-npm install
-npm run start
+   npm install
+   npm run start
 
 
 4. Go back to the project folder:
