@@ -43,5 +43,3 @@ This is a web app for selling online courses, developed as part of my React trai
    npm run dev
 
 
-
-
