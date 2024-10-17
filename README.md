@@ -34,14 +34,13 @@ This is a web app for selling online courses, developed as part of my React trai
    npm install
    npm run start
 
-
 4. Go back to the project folder:
    ```bash
-cd ..
+   cd ..
 5. Install frontend dependencies and start the development server:
    ```bash
-npm install
-npm run dev
+   npm install
+   npm run dev
 
 
 
