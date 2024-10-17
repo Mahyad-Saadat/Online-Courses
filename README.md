@@ -33,6 +33,8 @@ This is a web app for selling online courses, developed as part of my React trai
    ```bash
 npm install
 npm run start
+
+
 4. Go back to the project folder:
    ```bash
 cd ..
