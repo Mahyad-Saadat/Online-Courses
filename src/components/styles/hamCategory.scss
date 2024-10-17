@@ -1,0 +1,11 @@
+.hamCategory {
+  animation: hamMenu 0.5s ease-out;
+}
+@keyframes hamCategory {
+  from {
+    left: -500px;
+  }
+  to {
+    left: 0;
+  }
+}

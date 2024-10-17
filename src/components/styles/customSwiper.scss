@@ -1,0 +1,16 @@
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: white;
+  color: orange;
+  border-radius: 50%;
+  width: calc(var(--swiper-navigation-size) / 44 * 30);
+  height: 30px;
+
+  &:after {
+    font-size: 18px;
+  }
+}
+
+.swiper-pagination-bullet {
+  background-color: orange;
+}

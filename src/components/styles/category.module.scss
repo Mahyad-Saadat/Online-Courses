@@ -1,0 +1,34 @@
+.category {
+  background: rgba(63, 103, 69, 0.06);
+
+  h2 {
+    @apply text-center py-6 text-sm font-bold md:pt-9 md:text-2xl xl:text-3xl text-green-950;
+  }
+
+  .categoryContainer {
+    @apply grid grid-cols-3 gap-2 px-7 pb-7 md:grid-cols-4 md:px-16 md:pt-2 md:gap-3 xl:px-10;
+
+    .categoryItems {
+      @apply flex items-center justify-between w-28 px-2 py-2 rounded-xl h-8 md:w-40 md:h-12 xl:w-72 xl:h-14 bg-white border hover:border-orange-950;
+
+      .item {
+        @apply flex items-center gap-1 md:gap-2;
+
+        img {
+          @apply w-4 md:w-6;
+        }
+
+        span {
+          @apply text-xxs font-normal md:text-base xl:text-xl;
+          color: rgba(27, 29, 31, 1);
+        }
+      }
+
+      .arrow {
+        img {
+          @apply w-4 md:w-6 hover:bg-orange-100 hover:rounded-full;
+        }
+      }
+    }
+  }
+}

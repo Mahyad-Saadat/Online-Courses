@@ -1,0 +1,623 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "مبانی برنامه‌نویسی",
+      "image": "/images/course1.png",
+      "likes": 150,
+      "visited": 3500,
+      "description": "این دوره به شما اصول برنامه‌نویسی را به زبانی ساده آموزش می‌دهد.",
+      "duration": "12 ساعت",
+      "language": "فارسی",
+      "participants": 500,
+      "price": 50000,
+      "contents": ["متغیرها", "توابع", "حلقه‌ها", "شرط‌ها"],
+      "instructor": {
+        "id": 1,
+        "name": "علی محمدی",
+        "job": "توسعه‌دهنده نرم‌افزار",
+        "description": "علی با ۸ سال سابقه در حوزه برنامه‌نویسی فعالیت می‌کند.",
+        "image": "/images/inst1.png"
+      },
+      "comments": [
+        {
+          "name": "مریم",
+          "description": "این دوره خیلی مفید بود، واقعا چیزهای زیادی یاد گرفتم."
+        },
+        { "name": "حسن", "description": "استاد خیلی خوب توضیح می‌ده." }
+      ],
+      "category": 1,
+      "relatedCourses": [2, 3],
+      "stars": 4.8,
+      "isFavorite": true
+    },
+    {
+      "id": 2,
+      "title": "طراحی سایت",
+      "image": "/images/course2.png",
+      "likes": 120,
+      "visited": 2500,
+      "description": "آموزش طراحی سایت از صفر تا صد با جدیدترین تکنولوژی‌ها.",
+      "duration": "20 ساعت",
+      "language": "فارسی",
+      "participants": 300,
+      "price": 75000,
+      "contents": ["HTML", "CSS", "JavaScript", "طراحی واکنش‌گرا"],
+      "instructor": {
+        "id": 2,
+        "name": "زهرا احمدی",
+        "job": "طراح وب",
+        "description": "زهرا در زمینه طراحی وب و رابط کاربری تخصص دارد.",
+        "image": "/images/inst2.png"
+      },
+      "comments": [
+        { "name": "علی", "description": "دوره خیلی خوبی بود، مخصوصا بخش CSS." },
+        {
+          "name": "ندا",
+          "description": "طراحی واکنش‌گرا رو خیلی خوب توضیح دادند."
+        }
+      ],
+      "category": 2,
+      "relatedCourses": [1, 4],
+      "stars": 4.6,
+      "isFavorite": false
+    },
+    {
+      "id": 3,
+      "title": "عکاسی دیجیتال",
+      "image": "/images/course3.png",
+      "likes": 180,
+      "visited": 4000,
+      "description": "آموزش عکاسی دیجیتال از مبتدی تا پیشرفته.",
+      "duration": "15 ساعت",
+      "language": "فارسی",
+      "participants": 400,
+      "price": 65000,
+      "contents": ["تنظیمات دوربین", "نورپردازی", "ویرایش عکس"],
+      "instructor": {
+        "id": 3,
+        "name": "حسین رضایی",
+        "job": "عکاس حرفه‌ای",
+        "description": "حسین بیش از ۱۰ سال تجربه در زمینه عکاسی دیجیتال دارد.",
+        "image": "/images/inst3.png"
+      },
+      "comments": [
+        {
+          "name": "فاطمه",
+          "description": "دوره خیلی خوبی بود، نکات عملی زیادی یاد گرفتم."
+        },
+        {
+          "name": "محمد",
+          "description": "استاد خیلی حرفه‌ای و خوش برخورد بود."
+        }
+      ],
+      "category": 3,
+      "relatedCourses": [5],
+      "stars": 4.9,
+      "isFavorite": true
+    },
+    {
+      "id": 4,
+      "title": "مدیریت کسب‌وکار",
+      "image": "/images/course4.png",
+      "likes": 90,
+      "visited": 1500,
+      "description": "اصول مدیریت کسب‌وکار و استراتژی‌های موفقیت.",
+      "duration": "25 ساعت",
+      "language": "فارسی",
+      "participants": 200,
+      "price": 85000,
+      "contents": ["مدیریت پروژه", "رهبری", "برنامه‌ریزی استراتژیک"],
+      "instructor": {
+        "id": 4,
+        "name": "لیلا کریمی",
+        "job": "مدیر کسب‌وکار",
+        "description": "لیلا با بیش از ۱۲ سال تجربه در مدیریت سازمان‌ها فعالیت می‌کند.",
+        "image": "/images/inst4.png"
+      },
+      "comments": [
+        {
+          "name": "سارا",
+          "description": "دوره فوق‌العاده‌ای بود، از تمام قسمت‌ها لذت بردم."
+        }
+      ],
+      "category": 4,
+      "relatedCourses": [2],
+      "stars": 4.7,
+      "isFavorite": false
+    },
+    {
+      "id": 5,
+      "title": "تحلیل داده",
+      "image": "/images/course5.png",
+      "likes": 110,
+      "visited": 2200,
+      "description": "آموزش مبانی تحلیل داده و نرم‌افزارهای تحلیل.",
+      "duration": "18 ساعت",
+      "language": "فارسی",
+      "participants": 350,
+      "price": 70000,
+      "contents": [
+        "تحلیل داده با پایتون",
+        "اکسل برای تحلیل داده",
+        "مصورسازی داده‌ها"
+      ],
+      "instructor": {
+        "id": 2,
+        "name": "زهرا احمدی",
+        "job": "طراح وب",
+        "description": "زهرا در زمینه طراحی وب و رابط کاربری تخصص دارد.",
+        "image": "/images/inst2.png"
+      },
+      "comments": [
+        {
+          "name": "امیر",
+          "description": "تحلیل داده خیلی کاربردی بود، مخصوصا با پایتون."
+        },
+        { "name": "پریسا", "description": "بخش مصورسازی داده‌ها خیلی خوب بود." }
+      ],
+      "category": 5,
+      "relatedCourses": [1, 4],
+      "stars": 4.8,
+      "isFavorite": true
+    },
+    {
+      "id": 6,
+      "title": "بازاریابی دیجیتال",
+      "image": "/images/course1.png",
+      "likes": 100,
+      "visited": 1800,
+      "description": "آموزش اصول بازاریابی دیجیتال برای رشد کسب‌وکار آنلاین.",
+      "duration": "16 ساعت",
+      "language": "فارسی",
+      "participants": 220,
+      "price": 60000,
+      "contents": ["استراتژی دیجیتال", "بازاریابی شبکه‌های اجتماعی", "SEO"],
+      "instructor": {
+        "id": 5,
+        "name": "مینا شریفی",
+        "job": "متخصص بازاریابی",
+        "description": "مینا با تجربه ۷ ساله در زمینه بازاریابی دیجیتال فعالیت می‌کند.",
+        "image": "/images/inst1.png"
+      },
+      "comments": [
+        {
+          "name": "رضا",
+          "description": "خیلی مفید بود، روش‌های جدیدی یاد گرفتم."
+        },
+        { "name": "مریم", "description": "استاد خیلی باحوصله توضیح می‌داد." }
+      ],
+      "category": 6,
+      "relatedCourses": [7],
+      "stars": 4.5,
+      "isFavorite": false
+    },
+    {
+      "id": 7,
+      "title": "اصول جراحی پزشکی",
+      "image": "/images/course2.png",
+      "likes": 130,
+      "visited": 2700,
+      "description": "این دوره به پزشکان تازه‌کار اصول جراحی را آموزش می‌دهد.",
+      "duration": "30 ساعت",
+      "language": "فارسی",
+      "participants": 100,
+      "price": 120000,
+      "contents": ["آشنایی با ابزار جراحی", "بخیه زدن", "مدیریت بیماران"],
+      "instructor": {
+        "id": 6,
+        "name": "دکتر مهدی کاظمی",
+        "job": "جراح عمومی",
+        "description": "دکتر کاظمی با بیش از ۱۵ سال تجربه در زمینه جراحی فعالیت می‌کند.",
+        "image": "/images/inst2.png"
+      },
+      "comments": [
+        { "name": "فریبا", "description": "دوره خیلی کاربردی و جامع بود." },
+        {
+          "name": "محمد",
+          "description": "دکتر کاظمی خیلی دقیق و حرفه‌ای بودند."
+        }
+      ],
+      "category": 7,
+      "relatedCourses": [9],
+      "stars": 4.9,
+      "isFavorite": true
+    },
+    {
+      "id": 8,
+      "title": "آموزش گرافیک کامپیوتری",
+      "image": "/images/course3.png",
+      "likes": 170,
+      "visited": 3800,
+      "description": "آموزش کامل نرم‌افزارهای گرافیکی مثل فتوشاپ و ایلاستریتور.",
+      "duration": "22 ساعت",
+      "language": "فارسی",
+      "participants": 450,
+      "price": 70000,
+      "contents": ["آشنایی با فتوشاپ", "طراحی پوستر", "ویرایش عکس"],
+      "instructor": {
+        "id": 7,
+        "name": "شهاب عباسی",
+        "job": "طراح گرافیک",
+        "description": "شهاب در زمینه گرافیک و هنرهای دیجیتال تخصص دارد.",
+        "image": "/images/inst3.png"
+      },
+      "comments": [
+        {
+          "name": "نسرین",
+          "description": "دوره خوبی بود، مهارت‌های فتوشاپم بهتر شد."
+        }
+      ],
+      "category": 2,
+      "relatedCourses": [2],
+      "stars": 4.7,
+      "isFavorite": false
+    },
+    {
+      "id": 9,
+      "title": "تحلیل داده‌های پزشکی",
+      "image": "/images/course4.png",
+      "likes": 90,
+      "visited": 1450,
+      "description": "تحلیل داده‌های پزشکی با نرم‌افزارهای پیشرفته.",
+      "duration": "12 ساعت",
+      "language": "فارسی",
+      "participants": 120,
+      "price": 95000,
+      "contents": ["تحلیل داده‌ها با R", "آمار پزشکی", "تحلیل نتایج"],
+      "instructor": {
+        "id": 8,
+        "name": "دکتر علی نوری",
+        "job": "متخصص تحلیل داده",
+        "description": "دکتر نوری در زمینه تحلیل داده‌های پزشکی تخصص دارد.",
+        "image": "/images/inst4.png"
+      },
+      "comments": [
+        {
+          "name": "مینا",
+          "description": "تحلیل داده‌های پزشکی خیلی کاربردی بود."
+        }
+      ],
+      "category": 7,
+      "relatedCourses": [7],
+      "stars": 4.6,
+      "isFavorite": false
+    },
+    {
+      "id": 10,
+      "title": "آموزش فتوشاپ",
+      "image": "/images/course5.png",
+      "likes": 140,
+      "visited": 3200,
+      "description": "آموزش کامل نرم‌افزار فتوشاپ برای طراحی و ویرایش عکس.",
+      "duration": "14 ساعت",
+      "language": "فارسی",
+      "participants": 380,
+      "price": 50000,
+      "contents": ["ابزارهای فتوشاپ", "طراحی وکتور", "افکت‌های تصویری"],
+      "instructor": {
+        "id": 7,
+        "name": "شهاب عباسی",
+        "job": "طراح گرافیک",
+        "description": "شهاب در زمینه گرافیک و هنرهای دیجیتال تخصص دارد.",
+        "image": "/images/inst3.png"
+      },
+      "comments": [
+        {
+          "name": "رضا",
+          "description": "آموزش فتوشاپ خیلی کاربردی بود، راضی بودم."
+        }
+      ],
+      "category": 2,
+      "relatedCourses": [8],
+      "stars": 4.8,
+      "isFavorite": true
+    },
+    {
+      "id": 11,
+      "title": "مبانی امنیت شبکه",
+      "image": "/images/course1.png",
+      "likes": 200,
+      "visited": 4500,
+      "description": "آموزش اصول و مبانی امنیت شبکه و نحوه محافظت از داده‌ها.",
+      "duration": "18 ساعت",
+      "language": "فارسی",
+      "participants": 600,
+      "price": 90000,
+      "contents": ["پروتکل‌های امنیت", "رمزنگاری داده‌ها", "فایروال"],
+      "instructor": {
+        "id": 9,
+        "name": "مجتبی رضایی",
+        "job": "متخصص امنیت",
+        "description": "مجتبی در زمینه امنیت شبکه و حفاظت از داده‌ها تخصص دارد.",
+        "image": "/images/inst2.png"
+      },
+      "comments": [
+        {
+          "name": "سینا",
+          "description": "دوره خیلی کاملی بود، تمام اصول امنیت شبکه رو یاد گرفتم."
+        }
+      ],
+      "category": 1,
+      "relatedCourses": [1],
+      "stars": 4.9,
+      "isFavorite": true
+    },
+    {
+      "id": 12,
+      "title": "تحلیل کسب‌وکار",
+      "image": "/images/course2.png",
+      "likes": 160,
+      "visited": 3100,
+      "description": "آموزش تحلیل و بهینه‌سازی فرآیندهای کسب‌وکار.",
+      "duration": "10 ساعت",
+      "language": "فارسی",
+      "participants": 220,
+      "price": 80000,
+      "contents": [
+        "تحلیل فرآیند",
+        "برنامه‌ریزی استراتژیک",
+        "بهینه‌سازی عملیات"
+      ],
+      "instructor": {
+        "id": 10,
+        "name": "مهران کاظمی",
+        "job": "مشاور کسب‌وکار",
+        "description": "مهران در زمینه بهینه‌سازی کسب‌وکارها فعالیت می‌کند.",
+        "image": "/images/inst1.png"
+      },
+      "comments": [
+        {
+          "name": "الهام",
+          "description": "دوره خیلی کاربردی برای مدیران و کارآفرینان بود."
+        }
+      ],
+      "category": 4,
+      "relatedCourses": [4],
+      "stars": 4.8,
+      "isFavorite": true
+    },
+    {
+      "id": 13,
+      "title": "آموزش نقاشی دیجیتال",
+      "image": "/images/course3.png",
+      "likes": 130,
+      "visited": 2000,
+      "description": "نقاشی دیجیتال از مبتدی تا پیشرفته با نرم‌افزارهای گرافیکی.",
+      "duration": "15 ساعت",
+      "language": "فارسی",
+      "participants": 300,
+      "price": 55000,
+      "contents": ["ابزارهای طراحی", "رنگ‌آمیزی", "ایجاد افکت‌های تصویری"],
+      "instructor": {
+        "id": 11,
+        "name": "حسن حسینی",
+        "job": "هنرمند دیجیتال",
+        "description": "حسن در زمینه نقاشی دیجیتال تخصص دارد و پروژه‌های زیادی انجام داده است.",
+        "image": "/images/inst3.png"
+      },
+      "comments": [
+        {
+          "name": "آرزو",
+          "description": "دوره خیلی عالی بود، مخصوصا برای مبتدی‌ها."
+        }
+      ],
+      "category": 2,
+      "relatedCourses": [8, 10],
+      "stars": 4.7,
+      "isFavorite": false
+    },
+    {
+      "id": 14,
+      "title": "مبانی هوش مصنوعی",
+      "image": "/images/course4.png",
+      "likes": 210,
+      "visited": 4700,
+      "description": "آموزش اصول و مبانی هوش مصنوعی و یادگیری ماشین.",
+      "duration": "20 ساعت",
+      "language": "فارسی",
+      "participants": 500,
+      "price": 95000,
+      "contents": [
+        "الگوریتم‌های یادگیری",
+        "شبکه‌های عصبی",
+        "تحلیل داده‌های حجیم"
+      ],
+      "instructor": {
+        "id": 12,
+        "name": "مینا زارعی",
+        "job": "متخصص هوش مصنوعی",
+        "description": "مینا در زمینه توسعه الگوریتم‌های هوش مصنوعی فعالیت می‌کند.",
+        "image": "/images/inst4.png"
+      },
+      "comments": [
+        {
+          "name": "کیوان",
+          "description": "خیلی کاربردی بود، الگوریتم‌های پیچیده به خوبی توضیح داده شد."
+        }
+      ],
+      "category": 5,
+      "relatedCourses": [5],
+      "stars": 4.9,
+      "isFavorite": true
+    },
+    {
+      "id": 15,
+      "title": "آموزش سئو",
+      "image": "/images/course5.png",
+      "likes": 140,
+      "visited": 2800,
+      "description": "آموزش اصول سئو و بهینه‌سازی سایت برای موتورهای جستجو.",
+      "duration": "12 ساعت",
+      "language": "فارسی",
+      "participants": 250,
+      "price": 60000,
+      "contents": ["استراتژی سئو", "لینک‌سازی", "آنالیز رقبا"],
+      "instructor": {
+        "id": 5,
+        "name": "مینا شریفی",
+        "job": "متخصص بازاریابی",
+        "description": "مینا با تجربه ۷ ساله در زمینه بازاریابی دیجیتال فعالیت می‌کند.",
+        "image": "/images/inst1.png"
+      },
+      "comments": [
+        {
+          "name": "بابک",
+          "description": "دوره خوبی بود، الان سئو سایت خودم رو بهتر کردم."
+        }
+      ],
+      "category": 6,
+      "relatedCourses": [6],
+      "stars": 4.8,
+      "isFavorite": true
+    }
+  ],
+  "instructors": [
+    {
+      "id": 1,
+      "name": "علی محمدی",
+      "job": "توسعه‌دهنده نرم‌افزار",
+      "description": "علی با ۸ سال سابقه در حوزه برنامه‌نویسی فعالیت می‌کند.",
+      "image": "/images/inst1.png"
+    },
+    {
+      "id": 2,
+      "name": "زهرا احمدی",
+      "job": "طراح وب",
+      "description": "زهرا در زمینه طراحی وب و رابط کاربری تخصص دارد.",
+      "image": "/images/inst2.png"
+    },
+    {
+      "id": 3,
+      "name": "حسین رضایی",
+      "job": "عکاس حرفه‌ای",
+      "description": "حسین بیش از ۱۰ سال تجربه در زمینه عکاسی دیجیتال دارد.",
+      "image": "/images/inst3.png"
+    },
+    {
+      "id": 4,
+      "name": "لیلا کریمی",
+      "job": "مدیر کسب‌وکار",
+      "description": "لیلا با بیش از ۱۲ سال تجربه در مدیریت سازمان‌ها فعالیت می‌کند.",
+      "image": "/images/inst4.png"
+    },
+    {
+      "id": 5,
+      "name": "مینا شریفی",
+      "job": "متخصص بازاریابی",
+      "description": "مینا با تجربه ۷ ساله در زمینه بازاریابی دیجیتال فعالیت می‌کند.",
+      "image": "/images/inst1.png"
+    },
+    {
+      "id": 6,
+      "name": "دکتر مهدی کاظمی",
+      "job": "جراح عمومی",
+      "description": "دکتر کاظمی با بیش از ۱۵ سال تجربه در زمینه جراحی فعالیت می‌کند.",
+      "image": "/images/inst2.png"
+    },
+    {
+      "id": 7,
+      "name": "شهاب عباسی",
+      "job": "طراح گرافیک",
+      "description": "شهاب در زمینه گرافیک و هنرهای دیجیتال تخصص دارد.",
+      "image": "/images/inst3.png"
+    },
+    {
+      "id": 8,
+      "name": "دکتر علی نوری",
+      "job": "متخصص تحلیل داده",
+      "description": "دکتر نوری در زمینه تحلیل داده‌های پزشکی تخصص دارد.",
+      "image": "/images/inst4.png"
+    },
+    {
+      "id": 9,
+      "name": "مجتبی رضایی",
+      "job": "متخصص امنیت",
+      "description": "مجتبی در زمینه امنیت شبکه و حفاظت از داده‌ها تخصص دارد.",
+      "image": "/images/inst2.png"
+    },
+    {
+      "id": 10,
+      "name": "مهران کاظمی",
+      "job": "مشاور کسب‌وکار",
+      "description": "مهران در زمینه بهینه‌سازی کسب‌وکارها فعالیت می‌کند.",
+      "image": "/images/inst1.png"
+    },
+    {
+      "id": 11,
+      "name": "حسن حسینی",
+      "job": "هنرمند دیجیتال",
+      "description": "حسن در زمینه نقاشی دیجیتال تخصص دارد و پروژه‌های زیادی انجام داده است.",
+      "image": "/images/inst3.png"
+    },
+    {
+      "id": 12,
+      "name": "مینا زارعی",
+      "job": "متخصص هوش مصنوعی",
+      "description": "مینا در زمینه توسعه الگوریتم‌های هوش مصنوعی فعالیت می‌کند.",
+      "image": "/images/inst4.png"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "برنامه‌نویسی",
+      "icon": "programming_icon.png"
+    },
+    {
+      "id": 2,
+      "title": "طراحی",
+      "icon": "design_icon.png"
+    },
+    {
+      "id": 3,
+      "title": "عکاسی",
+      "icon": "photography_icon.png"
+    },
+    {
+      "id": 4,
+      "title": "کسب‌وکار",
+      "icon": "business_icon.png"
+    },
+    {
+      "id": 5,
+      "title": "تحلیل داده",
+      "icon": "data_icon.png"
+    },
+    {
+      "id": 6,
+      "title": "بازاریابی",
+      "icon": "marketing_icon.png"
+    },
+    {
+      "id": 7,
+      "title": "پزشکی",
+      "icon": "medical_icon.png"
+    },
+    {
+      "id": 8,
+      "title": "زبان‌های خارجی",
+      "icon": "languages_icon.png"
+    },
+    {
+      "id": 9,
+      "title": "موسیقی",
+      "icon": "music_icon.png"
+    },
+    {
+      "id": 10,
+      "title": "ورزش و تناسب اندام",
+      "icon": "fitness_icon.png"
+    },
+    {
+      "id": 11,
+      "title": "آشپزی",
+      "icon": "cooking_icon.png"
+    },
+    {
+      "id": 12,
+      "title": "روانشناسی",
+      "icon": "psychology_icon.png"
+    }
+  ]
+}

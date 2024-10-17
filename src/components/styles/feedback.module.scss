@@ -1,0 +1,43 @@
+.container {
+  background-color: #f9f9f9;
+
+  h2 {
+    @apply text-xs font-bold py-6 text-center md:pt-6 md:text-2xl xl:text-3xl text-green-950;
+  }
+
+  .cardsContainer {
+    .cards {
+      @apply h-36 w-72 mx-auto rounded-2xl md:w-80 md:h-48 xl:w-540 xl:h-56 bg-white;
+
+      .content {
+        @apply flex justify-between;
+        padding: 17px 24px 13px 25px;
+
+        .header {
+          @apply flex gap-2 items-center xl:gap-5;
+
+          .imgContainer {
+            @apply h-6 w-6 md:h-9 md:w-9 xl:h-14 xl:w-14;
+          }
+
+          .title {
+            h4 {
+              @apply text-xxs font-semibold md:text-sm xl:text-xl;
+            }
+            span {
+              @apply text-xxs font-normal md:text-xs xl:text-base;
+            }
+          }
+        }
+        .headerImg {
+          @apply w-5 h-5 md:h-8 md:w-8;
+        }
+      }
+      p {
+        @apply text-xxxs font-normal text-justify leading-6 md:text-xxs xl:text-base;
+        color: rgba(54, 58, 61, 1);
+        padding: 0 24px 13px 25px;
+      }
+    }
+  }
+}

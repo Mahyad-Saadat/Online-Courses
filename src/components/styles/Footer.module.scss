@@ -1,0 +1,116 @@
+footer {
+  @apply px-8 py-6 md:h-72 md:px-16 xl:px-24;
+  background: rgba(96, 148, 104, 1);
+
+  .container {
+    @apply grid grid-cols-3 gap-9 xl:gap-32;
+
+    .column1 {
+      @apply flex flex-col;
+      .logo {
+        @apply flex items-center gap-2 w-8 md:w-32;
+
+        span {
+          @apply text-sm font-bold md:text-2xl xl:text-3xl;
+          color: linear-gradient(180deg, #173420, #316842);
+        }
+      }
+      .content {
+        @apply flex flex-col gap-2 w-24 h-16 md:w-52 md:h-36 xl:w-72;
+
+        h2 {
+          @apply text-xxs font-semibold md:text-base xl:text-lg;
+          color: rgba(30, 51, 34, 1);
+        }
+
+        .p {
+          @apply flex flex-col gap-1;
+
+          p {
+            @apply text-xxxs font-medium leading-9 md:text-xs md:leading-6 xl:text-base text-white;
+          }
+        }
+      }
+      .contactsContainer {
+        .contacts {
+          @apply flex gap-1 mt-2;
+
+          img {
+            @apply w-4 h-4 md:w-8 md:h-8;
+          }
+        }
+      }
+    }
+
+    .column2 {
+      @apply flex gap-5 md:gap-8 xl:gap-36;
+
+      .rightColumn {
+        @apply flex flex-col gap-2;
+
+        h2 {
+          @apply font-semibold text-xxs md:text-base xl:text-lg;
+        }
+        .contacts {
+          @apply flex flex-col gap-1 text-xxs font-semibold md:gap-3;
+
+          a {
+            @apply text-xxxs font-medium md:text-xs xl:text-sm text-white;
+            font-family: Public Sans;
+            color: rgba(255, 255, 255, 1);
+          }
+        }
+      }
+      .leftColumn {
+        @apply flex flex-col gap-2;
+        // gap: 2px;
+
+        h2 {
+          @apply text-xxs font-semibold md:text-base xl:text-lg;
+        }
+        .contacts {
+          @apply flex flex-col gap-1 text-xxs font-semibold md:gap-3;
+
+          a {
+            @apply text-xxxs font-normal md:text-xs xl:text-sm text-white;
+            font-family: Public Sans;
+          }
+        }
+      }
+    }
+    .column3 {
+      @apply flex flex-col gap-2 md:gap-7;
+
+      .top {
+        @apply flex flex-col gap-1 w-24 md:w-60 md:gap-4;
+
+        h2 {
+          @apply text-xxs font-semibold md:text-base xl:text-lg;
+          font-family: Public Sans;
+        }
+        p {
+          @apply text-xxxs font-normal md:text-xs xl:text-sm text-white;
+        }
+      }
+      .bottom {
+        @apply w-24 flex flex-col gap-2 md:gap-4;
+
+        input {
+          @apply h-4 text-xxxs rounded font-normal w-24 md:text-xs md:w-56 md:h-11 xl:text-sm bg-white;
+          padding: 3px 8px 3px 62px;
+          color: rgba(109, 115, 122, 1);
+        }
+        button {
+          @apply w-9 rounded-3xl text-xxxs font-semibold md:text-xs md:w-24 md:h-9 xl:text-sm;
+          padding: 3px;
+          background: linear-gradient(
+            180deg,
+            rgba(255, 88, 0, 0.85) 0%,
+            #ff9d00 100%
+          );
+          color: rgba(255, 255, 255, 1);
+        }
+      }
+    }
+  }
+}

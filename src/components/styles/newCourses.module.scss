@@ -1,0 +1,74 @@
+.container {
+  @apply px-14 py-8 xl:px-36;
+  background: rgba(63, 103, 69, 0.06);
+
+  h2 {
+    @apply text-sm font-bold mb-9 text-center md:pt-6 md:text-2xl xl:text-3xl text-green-950;
+  }
+
+  .cardsContainer {
+    @apply grid grid-cols-2 gap-3 md:grid-cols-3 md:gap-10;
+
+    .card {
+      @apply pt-3 pb-2 rounded-2xl bg-white;
+
+      .mainHeader {
+        @apply p-2 xl:mx-auto;
+      }
+
+      .content {
+        @apply flex flex-col gap-3 xl:mr-3;
+        padding: 6px 15.5px;
+
+        .teacher {
+          @apply flex gap-2 xl:gap-4;
+
+          .teacherTheme {
+            color: rgba(253, 102, 31, 0.85);
+          }
+        }
+
+        .date {
+          @apply flex gap-2 xl:gap-4;
+        }
+
+        h4 {
+          @apply text-xxs font-normal xl:text-xs;
+
+          color: rgba(0, 0, 0, 1);
+        }
+        p {
+          @apply text-xxxs font-normal md:text-xxs xl:text-xs;
+        }
+      }
+
+      .price {
+        @apply flex mt-1 items-center gap-11 py-2 px-4 md:gap-16 xl:gap-44 xl:mr-2;
+
+        img {
+          @apply w-5 h-5 md:w-6 md:h-6 xl:h-8 xl:w-8;
+        }
+
+        span {
+          @apply text-xxs font-normal md:text-sm xl:text-base xl:mr-2;
+        }
+      }
+    }
+  }
+
+  .btnContainer {
+    @apply mt-6 text-center;
+
+    .button {
+      @apply hover:bg-orange-800 px-3 rounded-3xl text-xxs font-semibold leading-6 md:text-sm md:px-5 md:py-1 xl:text-xl xl:mt-3;
+
+      background: linear-gradient(
+        180deg,
+        rgba(255, 88, 0, 0.85) 0%,
+        #ff9d00 100%
+      );
+      color: #fff;
+      font-family: Public Sans;
+    }
+  }
+}

@@ -1,0 +1,144 @@
+$Green: #28422c;
+
+.navContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  nav {
+    position: relative;
+    width: 100%;
+    .logInContainer {
+      display: flex;
+      position: absolute;
+      left: 50px;
+      top: 56px;
+
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px;
+      width: 300px;
+      height: 48px;
+      @media (max-width: 834px) {
+        display: none;
+      }
+    }
+    .burgerMenuMD {
+      display: none;
+      @media (max-width: 834px) {
+        display: flex;
+        position: absolute;
+        left: 50px;
+        top: 45px;
+
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        width: 20%;
+        min-width: 5rem;
+        height: 48px;
+      }
+      @media (max-width: 640px) {
+        display: none;
+      }
+    }
+    .burgerMenuSM {
+      display: none;
+      @media (max-width: 834px) {
+        display: none;
+      }
+      @media (max-width: 640px) {
+        display: flex;
+        position: absolute;
+        left: 50px;
+        top: 18px;
+
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        width: 20%;
+        min-width: 5rem;
+        height: 31px;
+      }
+    }
+  }
+  nav ul {
+    display: flex;
+    position: absolute;
+    top: 70px;
+    right: 8%;
+    height: 50px;
+
+    li {
+      padding-left: 2.3rem;
+      font-weight: 700;
+      color: $Green;
+    }
+  }
+  .navGraphics {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    .vector {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: -1;
+      width: 306px;
+      height: 256px;
+      @media (max-width: 834px) {
+        width: 246px;
+        height: 206px;
+      }
+      @media (max-width: 640px) {
+        width: 126px;
+        height: 106px;
+      }
+    }
+    .logo {
+      position: absolute;
+      top: 50px;
+      right: 5.5rem;
+      display: flex;
+      @media (max-width: 834px) {
+        top: 42px;
+        right: 106px;
+      }
+      @media (max-width: 640px) {
+        top: 20px;
+        right: 51px;
+      }
+      img {
+        width: 63px;
+        height: 58px;
+        @media (max-width: 834px) {
+          width: 50px;
+          height: 46px;
+        }
+        @media (max-width: 640px) {
+          width: 25px;
+          height: 23px;
+        }
+      }
+      h1 {
+        color: $Green;
+        margin-top: 13px;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 1.6rem;
+        @media (max-width: 834px) {
+          font-size: 1.1rem;
+          margin-top: 13px;
+          margin-left: 6px;
+          font-weight: bold;
+        }
+        @media (max-width: 640px) {
+          font-size: 0.7rem;
+          margin-top: 4px;
+          margin-left: 3px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

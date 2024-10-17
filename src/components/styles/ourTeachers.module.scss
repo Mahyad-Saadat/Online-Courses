@@ -1,0 +1,40 @@
+.container {
+  background-color: #f9f9f9;
+
+  h2 {
+    @apply text-sm font-bold text-center pt-6 md:pt-9 md:text-2xl xl:text-3xl text-green-950;
+  }
+
+  .cardsContainer {
+    @apply xl:pb-8;
+
+    .cards {
+      @apply rounded-2xl h-40 p-2 mb-2 md:h-72 xl:h-80 bg-white;
+
+      & > img {
+        @apply m-auto px-2 md:p-2;
+      }
+
+      .content {
+        @apply flex flex-col gap-2 h-11 pt-1 xl:w-48 xl:mx-auto;
+
+        h3 {
+          @apply font-bold text-center text-xxs md:text-xs;
+        }
+        h6 {
+          @apply font-bold text-center text-xxxs md:text-xxs text-green-950;
+        }
+        p {
+          @apply font-normal text-center text-xxxs md:text-xxs;
+
+          color: rgba(134, 134, 134, 1);
+        }
+        span {
+          @apply font-normal text-center text-xxxs md:text-xxs;
+
+          color: rgba(134, 134, 134, 1);
+        }
+      }
+    }
+  }
+}

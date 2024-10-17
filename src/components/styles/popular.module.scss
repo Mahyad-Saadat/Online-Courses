@@ -1,0 +1,47 @@
+.containers {
+  background-color: #f9f9f9;
+
+  h2 {
+    @apply text-center text-sm font-bold pt-6 md:pt-9 md:text-2xl xl:text-3xl text-green-950;
+  }
+
+  .cardsContainer {
+    @apply xl:pb-10;
+
+    .cards {
+      @apply rounded-2xl p-2 md:p-5 xl:p-8 bg-white;
+
+      & > img {
+        @apply m-auto px-2 md:px-0;
+      }
+      .content {
+        @apply flex flex-col gap-2 py-1 px-1 mx-auto;
+
+        .title {
+          @apply font-normal text-xxxs md:text-xxs xl:text-xs xl:mt-2;
+
+          color: rgba(0, 0, 0, 1);
+        }
+        .rating {
+          @apply flex gap-1 md:text-xs;
+
+          .rate {
+            @apply text-xxxs font-normal md:text-xxs;
+          }
+        }
+      }
+
+      .price {
+        @apply flex mt-2 items-center md:gap-8;
+
+        img {
+          @apply w-4 h-4 mr-auto md:w-6 md:h-6 xl:w-8 xl:h-8;
+        }
+
+        span {
+          @apply text-xxs font-normal md:text-xs xl:text-base;
+        }
+      }
+    }
+  }
+}
