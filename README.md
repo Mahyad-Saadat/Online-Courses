@@ -26,6 +26,8 @@ This is a web app for selling online courses, developed as part of my React trai
    git clone https://github.com/yourusername/course-marketplace.git
    
 2. Navigate to the backend folder:
-      ```bash
-cd course-marketplace/backend
+   ```bash
+   cd course-marketplace/backend
+
+
 
