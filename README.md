@@ -29,5 +29,3 @@ This is a web app for selling online courses, developed as part of my React trai
    ```bash
    cd course-marketplace/backend
 
-
-
